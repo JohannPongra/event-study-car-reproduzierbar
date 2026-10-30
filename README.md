@@ -71,21 +71,22 @@ Die Prüfung arbeitet in zwei Ebenen:
    erneut herunterladen.
 
 ```mermaid
-flowchart LR
-    A[Bericht und EPS-Quelle] --> B[Ticker, Berichtsperiode und Datum abgleichen]
-    B --> C{Gleiche EPS-Grundlage?}
-    C -- Nein oder unklar --> Z[Nicht verwenden oder als offen markieren]
-    C -- Ja --> D[GAAP oder Non-GAAP eindeutig kennzeichnen]
-    D --> E{Berichtet und erwartet gleiche Basis?}
-    E -- Nein --> Z
-    E -- Ja --> F[Aktienbasis prüfen: basic oder diluted]
-    F --> G{Gleiche Aktienbasis und Einheit?}
-    G -- Nein --> Z
-    G -- Ja --> H[Wert gegen Rohantwort und Historie abgleichen]
-    H --> I{Numerisch identisch und Zeitraum passend?}
-    I -- Nein --> Z
-    I -- Ja --> J[Für UE = reported EPS - estimated EPS zulassen]
-    J --> K[Mit acht vorherigen vergleichbaren Berichten SUE berechnen]
+%%{init: {"themeVariables": {"fontSize": "18px"}}}%%
+flowchart TD
+    A["1. Bericht<br/>und EPS-Quelle"] --> B["2. Ticker, Zeitraum<br/>und Datum"]
+    B --> C{"3. EPS-Grundlage<br/>eindeutig?"}
+    C -- "Nein / unklar" --> Z["Nicht verwenden<br/>oder offen markieren"]
+    C -- "Ja" --> D["4. GAAP oder Non-GAAP<br/>kennzeichnen"]
+    D --> E{"5. Reported und Estimated<br/>gleiche Basis?"}
+    E -- "Nein" --> Z
+    E -- "Ja" --> F["6. Aktienbasis:<br/>basic oder diluted"]
+    F --> G{"7. Gleiche Aktienbasis,<br/>Einheit, Währung?"}
+    G -- "Nein" --> Z
+    G -- "Ja" --> H["8. Abgleich mit Rohantwort<br/>und EPS-Historie"]
+    H --> I{"9. Numerisch identisch<br/>und Zeitraum passend?"}
+    I -- "Nein" --> Z
+    I -- "Ja" --> J["10. UE zulassen:<br/>reported − estimated EPS"]
+    J --> K["11. SUE aus acht vorherigen<br/>vergleichbaren Berichten"]
 ```
 
 ### GAAP-/Non-GAAP-Prüfung
