@@ -30,23 +30,15 @@ beendet den Lauf, bevor neue Ergebnisdateien als erfolgreich gekennzeichnet
 werden.
 
 ```mermaid
-flowchart TD
-    A[REPRODUZIEREN.bat oder python analyse.py] --> B[Prüfsummen und Eingabetabellen laden]
-    B --> C{Datenprüfung bestanden?}
-    C -- Nein --> X[Abbruch mit Fehlermeldung]
-    C -- Ja --> D[Kurse und Volumen: einfache Renditen]
-    D --> E[Marktmodell je Ereignis: Alpha, Beta und erwartete Rendite]
-    E --> F[Abnormale Renditen und CAR im Fenster 0 bis +1]
-    B --> G[EPS-Historie: UE und SUE aus acht Vorberichten]
-    B --> H[Volumen, Google Trends und gespeicherte FinBERT-Klassen]
-    F --> I[Zusammenführen der 170 Ereignisse]
-    G --> I
-    H --> I
-    I --> J[Regressionen, Diagnostik und Robustheit]
-    J --> K{Zwölf Referenztabellen stimmen?}
-    K -- Nein --> X
-    K -- Ja --> L[CSV-Ergebnisse, Grafiken und Ergebnisse.md]
-    L --> M[Pruefung.json erst jetzt schreiben]
+flowchart LR
+    A["Start<br/>REPRODUZIEREN.bat"] --> B["Eingaben prüfen<br/>und laden"]
+    B --> C["Kennzahlen<br/>berechnen"]
+    C --> D["CAR, SUE, VOL,<br/>PREVOL, SEARCH, TONE"]
+    D --> E["Regressionen,<br/>Diagnostik, Robustheit"]
+    E --> F["Referenztabellen<br/>vergleichen"]
+    F --> G["Ergebnisse,<br/>Grafiken, Pruefung.json"]
+    B -. Fehler .-> X["Abbruch"]
+    F -. Abweichung .-> X
 ```
 
 ## Datenprüfung
@@ -71,22 +63,18 @@ Die Prüfung arbeitet in zwei Ebenen:
    erneut herunterladen.
 
 ```mermaid
-%%{init: {"themeVariables": {"fontSize": "18px"}}}%%
-flowchart TD
-    A["1. Bericht<br/>und EPS-Quelle"] --> B["2. Ticker, Zeitraum<br/>und Datum"]
-    B --> C{"3. EPS-Grundlage<br/>eindeutig?"}
-    C -- "Nein / unklar" --> Z["Nicht verwenden<br/>oder offen markieren"]
-    C -- "Ja" --> D["4. GAAP oder Non-GAAP<br/>kennzeichnen"]
-    D --> E{"5. Reported und Estimated<br/>gleiche Basis?"}
-    E -- "Nein" --> Z
-    E -- "Ja" --> F["6. Aktienbasis:<br/>basic oder diluted"]
-    F --> G{"7. Gleiche Aktienbasis,<br/>Einheit, Währung?"}
-    G -- "Nein" --> Z
-    G -- "Ja" --> H["8. Abgleich mit Rohantwort<br/>und EPS-Historie"]
-    H --> I{"9. Numerisch identisch<br/>und Zeitraum passend?"}
-    I -- "Nein" --> Z
-    I -- "Ja" --> J["10. UE zulassen:<br/>reported − estimated EPS"]
-    J --> K["11. SUE aus acht vorherigen<br/>vergleichbaren Berichten"]
+%%{init: {"themeVariables": {"fontSize": "14px"}}}%%
+flowchart LR
+    A["1. Quelle<br/>und Zeitraum"] --> B["2. GAAP oder<br/>Non-GAAP"]
+    B --> C["3. Reported und Estimated<br/>gleiche Grundlage"]
+    C --> D["4. Aktienbasis<br/>basic oder diluted"]
+    D --> E["5. Einheit, Währung<br/>und Splits"]
+    E --> F["6. Rohantwort und<br/>EPS-Historie abgleichen"]
+    F --> G["7. UE und danach SUE<br/>aus acht Vorberichten"]
+    B -. "unklar" .-> X["offen / nicht verwenden"]
+    C -. "abweichend" .-> X
+    D -. "abweichend" .-> X
+    F -. "nicht identisch" .-> X
 ```
 
 ### GAAP-/Non-GAAP-Prüfung
