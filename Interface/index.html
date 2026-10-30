@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abbildungen · W-Seminar Johann Pongratz</title>
+  <link rel="stylesheet" href="stil.css">
+  <script defer src="daten.js"></script>
+  <script defer src="interface.js"></script>
+</head>
+<body>
+  <header class="masthead"><div class="wrap masthead-inner">
+    <a href="index.html" class="brand"><span class="mark" aria-hidden="true">JP</span> W-Seminar <span class="muted">/ Event Study</span></a>
+    <a href="README.md" class="text-link">Anleitung &amp; Entstehung ↗</a>
+  </div></header>
+  <main class="wrap">
+    <section class="intro">
+      <div><p class="eyebrow">Johann Pongratz · Abbildungsverzeichnis</p>
+      <h1>Die Grafiken der Arbeit.</h1>
+      <p class="lead">Alle Abbildungen an einem Ort. Nach Thema filtern, vergrößern und einzeln öffnen.</p></div>
+      <div class="edition"><span>Arbeitsstand</span><strong id="document-name">Word-Dokument</strong><small id="updated"></small></div>
+    </section>
+    <nav class="sources" aria-label="Quelle der Abbildungen">
+      <button type="button" class="source active" data-source="document" aria-pressed="true">In der Arbeit <span id="document-count"></span></button>
+      <button type="button" class="source" data-source="calculated" aria-pressed="false">Neu berechnet <span id="calculated-count"></span></button>
+    </nav>
+    <p id="source-note" class="source-note"></p>
+    <section class="toolbar" aria-label="Abbildungen filtern">
+      <label class="search-label"><span class="sr-only">Abbildungen durchsuchen</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Suchen, z. B. PREVOL oder Abbildung 16" autocomplete="off"></label>
+      <label class="select-label"><span>Thema</span><select id="category"><option value="all">Alle Themen</option><option>Überblick</option><option>CAR</option><option>|CAR|</option><option>Koeffizienten</option><option>Diagnostik</option><option>Robustheit</option></select></label>
+    </section>
+    <div class="results-header"><h2 id="section-title">Abbildungen im Arbeitsstand</h2><span id="result-count" role="status" aria-live="polite"></span></div>
+    <section id="gallery" class="gallery" aria-label="Abbildungen"></section>
+    <div id="empty" class="empty" hidden><h2>Keine passende Abbildung</h2><p>Versuche einen anderen Suchbegriff oder zeige alle Themen an.</p><button id="reset" class="button" type="button">Filter zurücksetzen</button></div>
+    <noscript>Für Suche und Galerie bitte JavaScript aktivieren. Die Bilder liegen auch im Ordner Abbildungen.</noscript>
+  </main>
+  <footer class="wrap footer"><span>CAR mit einfachen Renditen · Ereignisfenster [0, +1]</span><span>Lokale Ansicht · ohne Internet nutzbar</span></footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-bar"><span id="viewer-position"></span><button id="close" class="icon-button" type="button" aria-label="Großansicht schließen">✕</button></div>
+    <div class="viewer-image"><img id="large-image" alt=""></div>
+    <div class="viewer-bottom"><div><p id="viewer-category" class="eyebrow"></p><h2 id="viewer-title"></h2><a id="original" target="_blank" rel="noopener">Originalgröße öffnen ↗</a></div><div class="viewer-nav"><button id="previous" class="icon-button" type="button" aria-label="Vorherige Abbildung">←</button><button id="next" class="icon-button" type="button" aria-label="Nächste Abbildung">→</button></div></div>
+  </dialog>
+</body>
+</html>

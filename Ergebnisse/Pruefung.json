@@ -1,0 +1,77 @@
+{
+  "bestanden": true,
+  "ereignisse": 170,
+  "datumscluster": 113,
+  "tabellen": [
+    {
+      "tabelle": "alle_ereignisse",
+      "zeilen": 170,
+      "groesste_absolutabweichung": 3.552713678800501e-15
+    },
+    {
+      "tabelle": "analysedaten",
+      "zeilen": 170,
+      "groesste_absolutabweichung": 3.552713678800501e-15
+    },
+    {
+      "tabelle": "ausschluesse",
+      "zeilen": 0,
+      "groesste_absolutabweichung": 0.0
+    },
+    {
+      "tabelle": "beschreibung",
+      "zeilen": 8,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    },
+    {
+      "tabelle": "diagnostik",
+      "zeilen": 2,
+      "groesste_absolutabweichung": 1.7763568394002505e-15
+    },
+    {
+      "tabelle": "event_study",
+      "zeilen": 5,
+      "groesste_absolutabweichung": 9.367506770274758e-17
+    },
+    {
+      "tabelle": "koeffizienten",
+      "zeilen": 212,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    },
+    {
+      "tabelle": "korrelationen",
+      "zeilen": 8,
+      "groesste_absolutabweichung": 9.71445146547012e-17
+    },
+    {
+      "tabelle": "residuen",
+      "zeilen": 340,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    },
+    {
+      "tabelle": "robustheit",
+      "zeilen": 380,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    },
+    {
+      "tabelle": "unternehmensauswahl",
+      "zeilen": 242,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    },
+    {
+      "tabelle": "vif",
+      "zeilen": 40,
+      "groesste_absolutabweichung": 4.440892098500626e-16
+    }
+  ],
+  "renditen": "P_t / P_(t-1) - 1; CAR = Summe der AR",
+  "tonalitaet": "TONE aus gespeicherten FinBERT-Satzbewertungen neu aggregiert",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pakete": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  }
+}

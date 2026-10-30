@@ -1,0 +1,25 @@
+# Lokale Laufzeit und Zugangsdaten
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+*.log
+# Individuelle Daten, Modelle und laufende Server
+Daten/Arbeitsbestaende/
+Daten/Modelle/
+Daten/Zwischenspeicher/
+Ergebnisse/Analysen/
+Ergebnisse/Kontextvergleiche/
+Ergebnisse/Transkriptrekonstruktionen/
+Interface/server-info.json
+Interface/finbert-bereit.json
+Arbeitsstand.docx
+*.docx
+.DS_Store
+Thumbs.db

@@ -1,0 +1,89 @@
+{
+  "prices.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/prices.csv",
+    "sha256": "a7915a89c24add2c6851671f1ceebf272cd1654e5bc03b6ddf6501ea2ea0bcab"
+  },
+  "volume.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/volume.csv",
+    "sha256": "9d9db4593a6d6005927036291845509b88911c4cec39568d4e6d97cd928439a2"
+  },
+  "events.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/events.csv",
+    "sha256": "f417176b35f58ac535b8924d353c6c5f6755a4c9d38b695f30baebd32f972530"
+  },
+  "earnings_history.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/earnings_history.csv",
+    "sha256": "f5f1bf794e686c9371a81c57f1d4737e731e50a243d146cbd434cbef88c944db"
+  },
+  "trends_wochen.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/trends_wochen.csv",
+    "sha256": "aa04ca3b615cbac9ed8ccd7a635289815e059e92063e87ee7a8612e483c426db"
+  },
+  "finbert_saetze.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/finbert_saetze.csv",
+    "sha256": "9956a5bf5bf17a0907cc9cad6df0bce13298e4791c1c0a223d552672eb634655"
+  },
+  "finbert": {
+    "created_at": "2026-10-16T10:50:30+02:00",
+    "model": "yiyanghkust/finbert-tone",
+    "revision": "4921590d3c0c3832c0efea24c8381ce0bda7844b",
+    "transcripts_sha256": "36534884830355e6faf5de922bde6f10ec401ff7842e598f9bce8c74c72e8987",
+    "tone_sha256": "25308df4a27a38a02260b1510ee3eefe25ada63bd9c306651aa2a953fe2ad7ac",
+    "sentences": 80262,
+    "ties": "neutral vor positive vor negative",
+    "sentence_split": "english_rules_v1"
+  },
+  "Referenz/alle_ereignisse.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/alle_ereignisse.csv",
+    "sha256": "045bce427c892df7ba77afb8ccb271ee9143d0a720f3d77ea4787150c401d29c"
+  },
+  "Referenz/analysedaten.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/analysedaten.csv",
+    "sha256": "d2035b5df5ad09179b120c40c0e5200ea834d9c82c77c2b282459ea84420350b"
+  },
+  "Referenz/ausschluesse.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/ausschluesse.csv",
+    "sha256": "525aeb248bfbf016685d03ee8e356d2d15bfd8e689f3dab6ffb004c668bea400"
+  },
+  "Referenz/beschreibung.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/beschreibung.csv",
+    "sha256": "ac2b749924b9a77a61424e80efeedb8145def7daffe4024e1c79957d0032f662"
+  },
+  "Referenz/diagnostik.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/diagnostik.csv",
+    "sha256": "2f9d217bbc87131381e31783f94021c585dff06444189a7fd80f75ef62b93019"
+  },
+  "Referenz/event_study.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/event_study.csv",
+    "sha256": "997b38efdbc70791b4b5177b73418726ab76b8d525d8caf4c16a7a47026b6cc0"
+  },
+  "Referenz/koeffizienten.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/koeffizienten.csv",
+    "sha256": "6ac3db899ccc5ce9d3608a982f722b1a3ef7dae4d007ecfee05ad4f582220075"
+  },
+  "Referenz/korrelationen.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/korrelationen.csv",
+    "sha256": "9d63c21237b85ff02d1d306fcf37ca6ec3bf6c4c609ebeec58450e35886ba1a5"
+  },
+  "Referenz/residuen.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/residuen.csv",
+    "sha256": "b7b46d9a0fb35edad7f3492310f0b621ed95ed76767e7c9b14739d7f62d78428"
+  },
+  "Referenz/robustheit.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/robustheit.csv",
+    "sha256": "c3701ab6c4d3cfbcf40048b0c339e3a21feb0a107afffa03d526910912f753ea"
+  },
+  "Referenz/unternehmensauswahl.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/unternehmensauswahl.csv",
+    "sha256": "62df12214cdb1c9c3a0126a109853f2da928fb1d035e20c276c8905342b4dfce"
+  },
+  "Referenz/vif.csv": {
+    "ursprung": "Pruefungen/Testdaten/CAR_einfache_Renditen/vif.csv",
+    "sha256": "7adea21029f6facefdde3db3517360b5e5411cb4376da754fe2d61d3b7dad759"
+  },
+  "Transkripte/transcripts.csv": {
+    "ursprung": "Archiv/Referenzbestand/bestand_20261016_100035_d963e3/aufbereitet/transcripts.csv",
+    "sha256": "36534884830355e6faf5de922bde6f10ec401ff7842e598f9bce8c74c72e8987",
+    "inhalt": "170 vollständige Calltexte, unverändert aus dem Analysebestand übernommen"
+  }
+}

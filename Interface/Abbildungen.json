@@ -1,0 +1,372 @@
+{
+  "document": "W-Seminar-Johann-PongratzNeu.docx",
+  "documentSha256": "139d5fad04c72713cf15e8f1f188ca2205c3ef8428684e8426bd82e1ba9641fa",
+  "updated": "2026-10-29T12:12:24+01:00",
+  "figures": [
+    {
+      "id": "abb-1",
+      "number": 1,
+      "source": "document",
+      "title": "Boxplot der Verteilung der |CAR| nach Unternehmen",
+      "caption": "Abbildung 1: Boxplot der Verteilung der |CAR| nach Unternehmen",
+      "category": "Überblick",
+      "image": "Abbildungen/Abbildung_01.png",
+      "sha256": "7a3f32e927bad720d9afe0c1620c89287b3bddd13acba01314746615f36810be",
+      "origin": "word/media/image2.png"
+    },
+    {
+      "id": "abb-2",
+      "number": 2,
+      "source": "document",
+      "title": "Pearson-Korrelationsmatrix der Ziel- und Erklärungsgrößen ohne Winsorierung. Dargestellt sind paarweise Zusammenhänge ohne Signifikanztests",
+      "caption": "Abbildung 2: Pearson-Korrelationsmatrix der Ziel- und Erklärungsgrößen ohne Winsorierung. Dargestellt sind paarweise Zusammenhänge ohne Signifikanztests",
+      "category": "Überblick",
+      "image": "Abbildungen/Abbildung_02.png",
+      "sha256": "d41683494e606fea7cba7744de60a703ef1dae6cf94103a3d56c1ad4c3a36ea5",
+      "origin": "word/media/image3.png"
+    },
+    {
+      "id": "abb-3",
+      "number": 3,
+      "source": "document",
+      "title": "Mittlere und kumulierte mittlere abnormale Rendite an den Ereignistagen 0 und +1",
+      "caption": "Abbildung 3: Mittlere und kumulierte mittlere abnormale Rendite an den Ereignistagen 0 und +1",
+      "category": "Überblick",
+      "image": "Abbildungen/Abbildung_03.png",
+      "sha256": "6b7fdbb80ea1bc9e6e17a8f636bf0a03916dace038c5a5920357be9483d8c679",
+      "origin": "word/media/image4.png"
+    },
+    {
+      "id": "abb-4",
+      "number": 4,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Gewinnüberraschung SUE und CAR",
+      "caption": "Abbildung 4: Partieller Zusammenhang von Gewinnüberraschung SUE und CAR",
+      "category": "CAR",
+      "image": "Abbildungen/Abbildung_04.png",
+      "sha256": "f7047df7348e4d4de25d28abdf316a9abbfe758c50a2f41636fb53ca989bf1fe",
+      "origin": "word/media/image5.png"
+    },
+    {
+      "id": "abb-5",
+      "number": 5,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Handelsvolumen VOL und CAR",
+      "caption": "Abbildung 5: Partieller Zusammenhang von Handelsvolumen VOL und CAR",
+      "category": "CAR",
+      "image": "Abbildungen/Abbildung_05.png",
+      "sha256": "72ef74b2a258542f143c92b40c966ff64a53e097287417ce641f84181d76c851",
+      "origin": "word/media/image6.png"
+    },
+    {
+      "id": "abb-6",
+      "number": 6,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Handelsvolumen im Vorlauf PREVOL und CAR",
+      "caption": "Abbildung 6: Partieller Zusammenhang von Handelsvolumen im Vorlauf PREVOL und CAR",
+      "category": "CAR",
+      "image": "Abbildungen/Abbildung_06.png",
+      "sha256": "cb36bca243911db00512adbcd026bbab3a1c910f1ed6aa66d59745e9d45e880f",
+      "origin": "word/media/image7.png"
+    },
+    {
+      "id": "abb-7",
+      "number": 7,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Suchinteresse SEARCH und CAR",
+      "caption": "Abbildung 7: Partieller Zusammenhang von Suchinteresse SEARCH und CAR",
+      "category": "CAR",
+      "image": "Abbildungen/Abbildung_07.png",
+      "sha256": "4b1c6cb0b8b1fafef82f278b65621208544eead16e159d33c65393ee6b851199",
+      "origin": "word/media/image8.png"
+    },
+    {
+      "id": "abb-8",
+      "number": 8,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Gesprächstonalität TONE und CAR",
+      "caption": "Abbildung 8: Partieller Zusammenhang von Gesprächstonalität TONE und CAR",
+      "category": "CAR",
+      "image": "Abbildungen/Abbildung_08.png",
+      "sha256": "d52a6265ff71bbe2502b102a324df38cbba311bb1502d51f2c1346c96ad639e7",
+      "origin": "word/media/image9.png"
+    },
+    {
+      "id": "abb-9",
+      "number": 9,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Betrag der Gewinnüberraschung |SUE| und |CAR|",
+      "caption": "Abbildung 9: Partieller Zusammenhang von Betrag der Gewinnüberraschung |SUE| und |CAR|",
+      "category": "|CAR|",
+      "image": "Abbildungen/Abbildung_09.png",
+      "sha256": "0b266063a62f9893650a047258a055a9bd014ba9d03880da3c37725b8bd6d9a7",
+      "origin": "word/media/image10.png"
+    },
+    {
+      "id": "abb-10",
+      "number": 10,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Handelsvolumen VOL und |CAR|",
+      "caption": "Abbildung 10: Partieller Zusammenhang von Handelsvolumen VOL und |CAR|",
+      "category": "|CAR|",
+      "image": "Abbildungen/Abbildung_10.png",
+      "sha256": "f5bbb2a026f7f2f1b2240b1e310b5cfc360b2af721cc33e88ac2783fc8caad52",
+      "origin": "word/media/image11.png"
+    },
+    {
+      "id": "abb-11",
+      "number": 11,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Handelsvolumen im Vorlauf PREVOL und |CAR|",
+      "caption": "Abbildung 11: Partieller Zusammenhang von Handelsvolumen im Vorlauf PREVOL und |CAR|",
+      "category": "|CAR|",
+      "image": "Abbildungen/Abbildung_11.png",
+      "sha256": "fcb0729953bb41f8cf9c4d1290aff914cd8a9b034b22445aff5d5b57eb2b0f09",
+      "origin": "word/media/image12.png"
+    },
+    {
+      "id": "abb-12",
+      "number": 12,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Suchinteresse SEARCH und |CAR|",
+      "caption": "Abbildung 12: Partieller Zusammenhang von Suchinteresse SEARCH und |CAR|",
+      "category": "|CAR|",
+      "image": "Abbildungen/Abbildung_12.png",
+      "sha256": "7973e8991de07f081582bd701c3cda7ca47e02abab28867ce58d687b86f17175",
+      "origin": "word/media/image13.png"
+    },
+    {
+      "id": "abb-13",
+      "number": 13,
+      "source": "document",
+      "title": "Partieller Zusammenhang von Gesprächstonalität TONE und |CAR|",
+      "caption": "Abbildung 13: Partieller Zusammenhang von Gesprächstonalität TONE und |CAR|",
+      "category": "|CAR|",
+      "image": "Abbildungen/Abbildung_13.png",
+      "sha256": "6e830acb0a3a5d55e761069c17c9c0d90fbd899abe93d8d82aaa65b524a8fea6",
+      "origin": "word/media/image14.png"
+    },
+    {
+      "id": "abb-14",
+      "number": 14,
+      "source": "document",
+      "title": "Skalierte Koeffizienten und 95%-Konfidenzintervalle im Modell für CAR",
+      "caption": "Abbildung 14: Skalierte Koeffizienten und 95%-Konfidenzintervalle im Modell für CAR",
+      "category": "Koeffizienten",
+      "image": "Abbildungen/Abbildung_14.png",
+      "sha256": "a473972226f6daae6f46d7014fb6343c5ca89cc1f91da59355e490da0e778f85",
+      "origin": "word/media/image15.png"
+    },
+    {
+      "id": "abb-15",
+      "number": 15,
+      "source": "document",
+      "title": "Skalierte Koeffizienten und 95%-Konfidenzintervalle im Modell für |CAR|",
+      "caption": "Abbildung 15: Skalierte Koeffizienten und 95%-Konfidenzintervalle im Modell für |CAR|",
+      "category": "Koeffizienten",
+      "image": "Abbildungen/Abbildung_15.png",
+      "sha256": "ac6897e9ed76bc814037ba24cf1518cc6d4652467606756a1022cbc7d10dcaba",
+      "origin": "word/media/image16.png"
+    },
+    {
+      "id": "abb-16",
+      "number": 16,
+      "source": "document",
+      "title": "Residuen gegenüber den geschätzten Modellwerten im Modell für CAR",
+      "caption": "Abbildung 16: Residuen gegenüber den geschätzten Modellwerten im Modell für CAR",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_16.png",
+      "sha256": "f44d96102813bd828a4bd76eb7921ef45a6912b1f2dcc87da327161a97077706",
+      "origin": "word/media/image17.png"
+    },
+    {
+      "id": "abb-17",
+      "number": 17,
+      "source": "document",
+      "title": "Normal-Quantil-Diagramm der Residuen im Modell für CAR",
+      "caption": "Abbildung 17: Normal-Quantil-Diagramm der Residuen im Modell für CAR",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_17.png",
+      "sha256": "16715d40dba1c997131e4b5c54783d984bcb937415021daa4bfff9dbac19b26b",
+      "origin": "word/media/image18.png"
+    },
+    {
+      "id": "abb-18",
+      "number": 18,
+      "source": "document",
+      "title": "Cook-Distanzen der zeitlich geordneten Ereignisse im Modell für CAR",
+      "caption": "Abbildung 18: Cook-Distanzen der zeitlich geordneten Ereignisse im Modell für CAR",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_18.png",
+      "sha256": "16020cfc140797558203c099fa6dac498d504ba9dae919120e2b724048e7de79",
+      "origin": "word/media/image19.png"
+    },
+    {
+      "id": "abb-19",
+      "number": 19,
+      "source": "document",
+      "title": "Häufigkeitsverteilung der Residuen im Modell für CAR",
+      "caption": "Abbildung 19: Häufigkeitsverteilung der Residuen im Modell für CAR",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_19.png",
+      "sha256": "c6ad73e81fbc22a9a558d9c89b9568d3394df4c900afa9ef60a4f97a97119010",
+      "origin": "word/media/image20.png"
+    },
+    {
+      "id": "abb-20",
+      "number": 20,
+      "source": "document",
+      "title": "Residuen gegenüber den geschätzten Modellwerten im Modell für |CAR|",
+      "caption": "Abbildung 20: Residuen gegenüber den geschätzten Modellwerten im Modell für |CAR|",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_20.png",
+      "sha256": "cbeffa77e64d7c4dbb2cad533751c8c49be1db112e43d1b226c4bfb12b555983",
+      "origin": "word/media/image21.png"
+    },
+    {
+      "id": "abb-21",
+      "number": 21,
+      "source": "document",
+      "title": "Normal-Quantil-Diagramm der Residuen im Modell für |CAR|",
+      "caption": "Abbildung 21: Normal-Quantil-Diagramm der Residuen im Modell für |CAR|",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_21.png",
+      "sha256": "ec63df9b2b6cc0edb1ccc422c4b3c2bc5ca9e9bc296292202f5886d47198da4c",
+      "origin": "word/media/image22.png"
+    },
+    {
+      "id": "abb-22",
+      "number": 22,
+      "source": "document",
+      "title": "Cook-Distanzen der zeitlich geordneten Ereignisse im Modell für |CAR|",
+      "caption": "Abbildung 22: Cook-Distanzen der zeitlich geordneten Ereignisse im Modell für |CAR|",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_22.png",
+      "sha256": "d8430691662c649f7bc9a445910ceaf97f81cb14c349985984200ce869780901",
+      "origin": "word/media/image23.png"
+    },
+    {
+      "id": "abb-23",
+      "number": 23,
+      "source": "document",
+      "title": "Häufigkeitsverteilung der Residuen im Modell für |CAR|",
+      "caption": "Abbildung 23: Häufigkeitsverteilung der Residuen im Modell für |CAR|",
+      "category": "Diagnostik",
+      "image": "Abbildungen/Abbildung_23.png",
+      "sha256": "3ce5bdc706735d14ad068d056127f5a3b06571db842ac9ae71a9cc69961094dd",
+      "origin": "word/media/image24.png"
+    },
+    {
+      "id": "abb-24",
+      "number": 24,
+      "source": "document",
+      "title": "Empfindlichkeit der Koeffizienten im Modell für CAR gegenüber der Unternehmensauswahl",
+      "caption": "Abbildung 24: Empfindlichkeit der Koeffizienten im Modell für CAR gegenüber der Unternehmensauswahl",
+      "category": "Robustheit",
+      "image": "Abbildungen/Abbildung_24.png",
+      "sha256": "2f76771b101eb9152d261c38fa4cf51c56484fc0ba450993b712d1073c7d64b2",
+      "origin": "word/media/image25.png"
+    },
+    {
+      "id": "abb-25",
+      "number": 25,
+      "source": "document",
+      "title": "Empfindlichkeit der Koeffizienten im Modell für |CAR| gegenüber der Unternehmensauswahl",
+      "caption": "Abbildung 25: Empfindlichkeit der Koeffizienten im Modell für |CAR| gegenüber der Unternehmensauswahl",
+      "category": "Robustheit",
+      "image": "Abbildungen/Abbildung_25.png",
+      "sha256": "2772bfd7587216af4ae43675b79feda1b8d0788e9bbdfbdab83785cc208a8020",
+      "origin": "word/media/image26.png"
+    },
+    {
+      "id": "abs_car_verteilung",
+      "source": "calculated",
+      "title": "Verteilung von |CAR| nach Unternehmen",
+      "caption": "Verteilung von |CAR| nach Unternehmen",
+      "category": "Überblick",
+      "image": "../Ergebnisse/Abbildungen/abs_car_verteilung.png",
+      "pdf": "../Ergebnisse/Abbildungen/abs_car_verteilung.pdf"
+    },
+    {
+      "id": "ueberblick",
+      "source": "calculated",
+      "title": "Mittlere Kursreaktion und Korrelationsmatrix",
+      "caption": "Mittlere Kursreaktion und Korrelationsmatrix",
+      "category": "Überblick",
+      "image": "../Ergebnisse/Abbildungen/ueberblick.png",
+      "pdf": "../Ergebnisse/Abbildungen/ueberblick.pdf"
+    },
+    {
+      "id": "car_partiell",
+      "source": "calculated",
+      "title": "Partielle Zusammenhänge mit CAR",
+      "caption": "Partielle Zusammenhänge mit CAR",
+      "category": "CAR",
+      "image": "../Ergebnisse/Abbildungen/car_partiell.png",
+      "pdf": "../Ergebnisse/Abbildungen/car_partiell.pdf"
+    },
+    {
+      "id": "abs_car_partiell",
+      "source": "calculated",
+      "title": "Partielle Zusammenhänge mit |CAR|",
+      "caption": "Partielle Zusammenhänge mit |CAR|",
+      "category": "|CAR|",
+      "image": "../Ergebnisse/Abbildungen/abs_car_partiell.png",
+      "pdf": "../Ergebnisse/Abbildungen/abs_car_partiell.pdf"
+    },
+    {
+      "id": "car_koeffizienten",
+      "source": "calculated",
+      "title": "Skalierte Koeffizienten für CAR",
+      "caption": "Skalierte Koeffizienten für CAR",
+      "category": "Koeffizienten",
+      "image": "../Ergebnisse/Abbildungen/car_koeffizienten.png",
+      "pdf": "../Ergebnisse/Abbildungen/car_koeffizienten.pdf"
+    },
+    {
+      "id": "abs_car_koeffizienten",
+      "source": "calculated",
+      "title": "Skalierte Koeffizienten für |CAR|",
+      "caption": "Skalierte Koeffizienten für |CAR|",
+      "category": "Koeffizienten",
+      "image": "../Ergebnisse/Abbildungen/abs_car_koeffizienten.png",
+      "pdf": "../Ergebnisse/Abbildungen/abs_car_koeffizienten.pdf"
+    },
+    {
+      "id": "car_diagnostik",
+      "source": "calculated",
+      "title": "Modelldiagnostik für CAR",
+      "caption": "Modelldiagnostik für CAR",
+      "category": "Diagnostik",
+      "image": "../Ergebnisse/Abbildungen/car_diagnostik.png",
+      "pdf": "../Ergebnisse/Abbildungen/car_diagnostik.pdf"
+    },
+    {
+      "id": "abs_car_diagnostik",
+      "source": "calculated",
+      "title": "Modelldiagnostik für |CAR|",
+      "caption": "Modelldiagnostik für |CAR|",
+      "category": "Diagnostik",
+      "image": "../Ergebnisse/Abbildungen/abs_car_diagnostik.png",
+      "pdf": "../Ergebnisse/Abbildungen/abs_car_diagnostik.pdf"
+    },
+    {
+      "id": "car_unternehmen_cluster",
+      "source": "calculated",
+      "title": "Unternehmensauswahl im CAR-Modell",
+      "caption": "Unternehmensauswahl im CAR-Modell",
+      "category": "Robustheit",
+      "image": "../Ergebnisse/Abbildungen/car_unternehmen_cluster.png",
+      "pdf": "../Ergebnisse/Abbildungen/car_unternehmen_cluster.pdf"
+    },
+    {
+      "id": "abs_car_unternehmen_cluster",
+      "source": "calculated",
+      "title": "Unternehmensauswahl im |CAR|-Modell",
+      "caption": "Unternehmensauswahl im |CAR|-Modell",
+      "category": "Robustheit",
+      "image": "../Ergebnisse/Abbildungen/abs_car_unternehmen_cluster.png",
+      "pdf": "../Ergebnisse/Abbildungen/abs_car_unternehmen_cluster.pdf"
+    }
+  ]
+}
