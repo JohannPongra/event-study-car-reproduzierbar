@@ -178,3 +178,70 @@ Audioverwaltung, zusätzliche Sentimentverfahren, alte Log-Rendite-Varianten,
 mehrfache Datenbestände, historische Berichte und Spezialexporte nach Jamovi,
 PSPP und SQLite. Für die Interpretation gelten die Einschränkungen der
 Seminararbeit: Die Regressionen zeigen Zusammenhänge und beweisen keine Kausalität.
+
+## KI-Unterstützung bei der Programmentwicklung
+
+Bei der Entwicklung der Python-Skripte wurden ChatGPT und OpenAI Codex eingesetzt. 
+Die Konzeption der statistischen Modelle, die Auswahl der Untersuchungsvariablen und die methodischen Entscheidungen erfolgten eigenständig. KI wurde insbesondere zur technischen Umsetzung, Fehlerbehebung, Automatisierung und Dokumentation verwendet.
+
+Die folgenden Prompts fassen die wesentlichen Programmieraufträge sinngemäß zusammen. Sie sind keine wortgetreuen Chat-Zitate. Kleinere Anpassungen, Fehlermeldungen und wiederholte Korrekturanfragen wurden zur besseren Übersicht zusammengefasst.
+
+### 1. Aufbau der Datenpipeline
+**Bereich:** Datenerhebung und Datenaufbereitung
+
+> Erstelle eine modulare Python-Pipeline, die die Quartalsberichte von Apple, Amazon, Alphabet, Meta und Microsoft für den Untersuchungszeitraum 2018–2026 erfasst. Verwende Alpha Vantage für die Gewinnzahlen und yfinance für Aktienkurse und Handelsvolumen. Führe die Daten über eindeutige Ereigniskennungen zusammen.
+
+### 2. Ereignisstudie und Berechnung der CAR
+**Bereich:** Marktmodell und abnormale Renditen
+
+> Implementiere die Ereignisstudie mit SPY als Marktvergleich. Schätze für jeden Quartalsbericht das Marktmodell mittels OLS im Schätzfenster [−250,−30] und berechne die abnormalen Renditen sowie die CAR im Ereignisfenster [0,+1]. Berücksichtige die nachbörsliche Veröffentlichung der Quartalszahlen und ermögliche alternative Ereignisfenster.
+
+### 3. Gewinnüberraschungen und Handelsvolumen
+**Bereich:** Berechnung von SUE, VOL und PREVOL
+
+> Ergänze die Berechnung der standardisierten Gewinnüberraschung SUE anhand der acht vorherigen Quartalsberichte. Implementiere außerdem das standardisierte abnormale Handelsvolumen mit dem Referenzfenster [−60,−10] und berechne daraus VOL und PREVOL gemäß meinen festgelegten Formeln.
+
+### 4. Integration von Google Trends
+**Bereich:** Anlegeraufmerksamkeit
+
+> Erstelle ein Skript, das die vorhandenen Google-Trends-Daten den Quartalsberichten zuordnet und das abnormale Suchinteresse SEARCH anhand der acht vorherigen Wochen berechnet. Achte auf eine einheitliche Skalierung und überprüfe die Vollständigkeit der Daten.
+
+### 5. Automatische Audiotranskription
+**Bereich:** Earnings-Call-Transkripte
+
+> Entwickle eine lokal ausführbare und fortsetzbare Transkriptionspipeline mit Whisper large-v3-turbo. Ergänze automatische Prüfungen auf auffällige Zahlen, Verneinungen, Wiederholungen und fehlende Sprachabschnitte. Ermögliche die erneute Transkription verdächtiger Stellen mit weiteren Modellen und protokolliere die Ergebnisse für die manuelle Kontrolle.
+
+### 6. Sentimentanalyse mit FinBERT
+**Bereich:** Berechnung von TONE
+
+> Implementiere eine Sentimentanalyse der vollständigen Earnings-Call-Transkripte mit dem Modell yiyanghkust/finbert-tone. Zerlege die Texte in Sätze, klassifiziere diese als positiv, neutral oder negativ und berechne TONE als Differenz der Anteile positiver und negativer Sätze.
+
+### 7. Regressionsmodelle
+**Bereich:** Statistische Auswertung
+
+> Implementiere die multiplen OLS-Regressionsmodelle für CAR und |CAR| mit den festgelegten Erklärungsgrößen SUE beziehungsweise |SUE|, VOL, PREVOL, SEARCH und TONE. Berücksichtige Unternehmens-, Jahres- und Quartalskontrollen sowie nach Ereignishandelstag geclusterte Standardfehler. Gib Koeffizienten, p-Werte, Konfidenzintervalle und Bestimmtheitsmaße aus.
+
+### 8. Robustheitsprüfungen und Visualisierungen
+**Bereich:** Statistische Diagnostik und Ergebnisdarstellung
+
+> Ergänze die Robustheitsprüfungen durch Winsorisierung, Modelle ohne Kontrollvariablen, den Ausschluss einzelner Unternehmen und alternative Ereignisfenster. Implementiere außerdem Residuenanalysen, VIF, Cook-Distanzen und Heteroskedastizitätstests. Erstelle die zugehörigen Tabellen, Korrelationsmatrizen und Regressionsgrafiken.
+
+### 9. Fehlerprüfung und Reproduzierbarkeit
+**Bereich:** Qualitätssicherung und Dokumentation
+
+> Vergleiche die Berechnungen und Variablendefinitionen des Python-Programms mit meiner Methodik. Prüfe auf fehlerhafte Ereigniszuordnungen, fehlende Werte und inkonsistente Ergebnisse. Strukturiere die Skripte und Ausgabedateien nachvollziehbar und erstelle eine README, mit der die Analyse reproduziert werden kann.
+
+---
+
+### Übersicht der KI-Unterstützung
+
+| Entwicklungsphase | Prompts | Schwerpunkt |
+|---|---|---|
+| Datenerhebung und -aufbereitung | 1, 4, 5 | Datenbeschaffung, Integration und Transkription |
+| Berechnung der Untersuchungsvariablen | 2, 3, 6 | Ereignisstudie, Gewinnüberraschungen, Aufmerksamkeit und Sentiment |
+| Statistische Auswertung | 7, 8 | Regressionen, Robustheitsprüfungen und Grafiken |
+| Qualitätssicherung und Dokumentation | 9 | Fehlerprüfung und Reproduzierbarkeit |
+
+### Überprüfung der KI-Ergebnisse
+
+Die KI-generierten Skripte und Berechnungen wurden auf ihre Übereinstimmung mit der festgelegten Methodik geprüft. Dabei wurden mehrfach Fehler festgestellt und korrigiert. Die endgültige Auswahl der Modelle, Variablen und Untersuchungsverfahren sowie die wissenschaftliche Interpretation der Ergebnisse wurden eigenständig verantwortet.
