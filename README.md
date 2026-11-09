@@ -5,8 +5,9 @@ Abbildungen des Word-Arbeitsstands und die neu berechneten Diagramme bereit.
 Die kurze Anleitung dazu liegt in `Interface/README.md`.
 
 **Start: `REPRODUZIEREN.bat` doppelklicken.** Die Ergebnisse werden neu berechnet
-und mit der geprüften Auswertung vom 28.10.2026 verglichen.
-Auf einem anderen Computer zuerst Python 3.12 (64 Bit) installieren und
+und mit der geprüften Auswertung vom 28.10.2026 verglichen. Nach erfolgreicher
+Reproduktion wird das Interface automatisch geöffnet.
+Auf einem anderen Computer zuerst Python 3.12 oder 3.14 (64 Bit) installieren und
 `INSTALLIEREN.bat` ausführen. Danach läuft die Analyse ohne Internet.
 
 ## Die drei Schritte im Code

@@ -1,4 +1,4 @@
-# Geprüfte Versionen für Python 3.12
+# Geprüfte Versionen für Python 3.12 und 3.14
 contourpy==1.4.0
 cycler==0.12.1
 fonttools==4.66.1

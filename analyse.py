@@ -1,6 +1,6 @@
 """Event Study der Seminararbeit: Daten -> Kennzahlen -> Statistik -> Grafiken.
 
-Start: REPRODUZIEREN.bat oder python analyse.py (Python 3.12).
+Start: REPRODUZIEREN.bat oder python analyse.py (Python 3.12 oder 3.14).
 Alle Berechnungen arbeiten offline auf den sechs Tabellen unter Daten/.
 """
 from pathlib import Path
